@@ -1,0 +1,551 @@
+/*----------- Header Top ---------------*/
+
+.header_top {
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+#menu:not(.mm-menu) {
+    display: none;
+}
+
+.user_contact ul {
+    margin: 0;
+    padding: 0;
+}
+
+.user_contact ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.user_contact ul li a {
+    padding: 8px 12px;
+    color: #444444;
+    font-weight: 500;
+    display: inline-block;
+    border-left: 1px solid #ddd;
+}
+
+.user_contact ul li:last-child a {
+    border-right: 1px solid #ddd;
+}
+
+.user_contact ul li a i {
+    color: #F15A27;
+}
+
+.header_topr {
+    float: right;
+}
+
+.header_topr a {
+    color: #F15A27;
+    text-transform: uppercase;
+}
+
+.header_topr ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header_topr ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 8px 12px;
+    color: #444444;
+    font-weight: 500;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+}
+
+.social_link a {
+    color: #444;
+    padding: 0 4px;
+    display: inline-block;
+    transition: all 0.5s ease-out;
+}
+
+.social_link a:hover {
+    color: #F15A27;
+}
+
+.header_topr ul li:first-child {
+    border-left: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.select_curency select {
+    border: none;
+    height: 16px;
+    font-weight: 500;
+    position: relative;
+    background: #fff;
+}
+
+
+/*--------------- Header Top End --------------*/
+
+
+/*----------- Main Navigation start -----------*/
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0 !important;
+    z-index: 999;
+}
+
+#myHeader.sticky+.smart_container {
+    padding-top: 65px;
+}
+
+.custom_nav {
+    background: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
+    padding: 0;
+    z-index: 999;
+}
+
+.custom_nav li a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user_profile button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #F15A27;
+}
+
+.user_profile button:hover {
+    text-decoration: none;
+}
+
+.user_profile .dropdown-toggle::after {
+    display: none !important;
+}
+
+.profilemenu {
+    left: inherit;
+    right: 0;
+    top: 44px;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    border: none;
+    box-shadow: 0 5px 11px rgba(0, 0, 0, 0.1);
+}
+
+.profilemenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.profilemenu ul li a {
+    color: #616161;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 13px;
+    display: block;
+}
+
+.profilemenu ul li a i {
+    margin-right: 6px;
+}
+
+.profilemenu ul li {
+    list-style: none;
+    display: block;
+}
+
+
+/*------------ Login Form-----------------*/
+
+.login_sec {
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+}
+
+.login_sec .modal-body {
+    padding: 0;
+}
+
+.loginform {
+    background: transparent;
+    padding: 0;
+    background-size: cover;
+    max-width: 259px;
+    margin: 0 auto;
+}
+
+.loginform h4 {
+    color: #000;
+    font-size: 20px;
+}
+
+.loginform .form-control {
+    border: 1px solid #ddd;
+}
+
+.loginform p {
+    color: #545454;
+}
+
+.loginwith {
+    padding: 13px 0 0 0;
+    color: #545454;
+}
+
+.loginwith a {
+    color: #545454;
+    margin: 0 5px;
+}
+
+.form-control {
+    border: none;
+    padding: 5px 10px;
+    height: 33px;
+    font-size: 12px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 5px 13px;
+    height: 32px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.submit_btn {
+    background: #F15A27;
+    color: #fff;
+}
+
+.submit_sec a {
+    color: #707070;
+    float: right;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.create_account {
+    padding: 15px 0;
+}
+
+.create_account h4 {
+    color: #3B3B44;
+    font-size: 20px;
+}
+
+.create_account .form-control {
+    background: #f2f2f2;
+}
+
+.p_right {
+    padding-right: 0;
+}
+
+.p_left {
+    padding-left: 0;
+}
+
+.close_modal {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 9;
+}
+
+.close_modal span {
+    width: 23px;
+    height: 23px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 23px;
+}
+
+
+/*------ Mobile View------*/
+
+.mobile_nav {
+    display: none;
+}
+
+.sticky .custom_nav+.stickymob {
+    padding-top: 44px;
+}
+
+.stickymob {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.mobuser_profile button {
+    font-size: 12px;
+    padding: 0;
+    width: auto;
+    float: right;
+    color: #000;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.mobuser_profile .dropdown-menu {
+    top: 8px !important;
+}
+
+.burger_menu {
+    width: 15px;
+    margin-right: 5px;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.burger_menu a {
+    color: #000;
+}
+
+.moblogo {
+    display: inline-block;
+    margin: 2px 6px;
+    float: left;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.moblogo a {
+    color: #000;
+}
+
+.user_profile {
+    width: auto;
+    display: inline-block;
+    float: right;
+}
+
+.mobile_nav {
+    height: 44px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
+    padding: 6px 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0;
+}
+
+a.closebtn {
+    position: absolute;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    font-size: 18px;
+    background: #000;
+    display: inline-block;
+    z-index: 9999;
+    overflow: visible;
+    text-align: center;
+}
+
+.metismenu .arrow {
+    float: right;
+    line-height: 1.42857
+}
+
+[dir=rtl] .metismenu .arrow {
+    float: left
+}
+
+.metismenu .glyphicon.arrow:before {
+    content: "\e079"
+}
+
+.metismenu .active>a>.glyphicon.arrow:before {
+    content: "\e114"
+}
+
+.metismenu .fa.arrow:before {
+    content: "\f104"
+}
+
+.metismenu .active>a>.fa.arrow:before {
+    content: "\f107"
+}
+
+.metismenu .ion.arrow:before {
+    content: "\f3d2"
+}
+
+.metismenu .active>a>.ion.arrow:before {
+    content: "\f3d0"
+}
+
+.metismenu .plus-times {
+    float: right
+}
+
+[dir=rtl] .metismenu .plus-times {
+    float: left
+}
+
+.metismenu .fa.plus-times:before {
+    content: "\f067"
+}
+
+.metismenu .active>a>.fa.plus-times {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.metismenu .plus-minus {
+    float: right
+}
+
+[dir=rtl] .metismenu .plus-minus {
+    float: left
+}
+
+.metismenu .fa.plus-minus:before {
+    content: "\f067"
+}
+
+.metismenu .active>a>.fa.plus-minus:before {
+    content: "\f068"
+}
+
+.metismenu .collapse {
+    display: none
+}
+
+.metismenu .collapse.in {
+    display: block
+}
+
+.metismenu .collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .35s;
+    -o-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-property: height, visibility;
+    -o-transition-property: height, visibility;
+    transition-property: height, visibility
+}
+
+.sidebar {
+    display: block;
+    float: left;
+    width: 250px;
+    background: #333;
+}
+
+.content {
+    display: block;
+    overflow: hidden;
+    width: auto;
+}
+
+.sidebar-nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background-image: -webkit-linear-gradient(left, color-stop(#333333 10px), color-stop(#222222 10px));
+    background-image: linear-gradient(to right, #333333 10px, #222222 10px);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
+}
+
+.sidebar-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-nav a,
+.sidebar-nav a:hover,
+.sidebar-nav a:focus,
+.sidebar-nav a:active {
+    outline: none;
+}
+
+.sidebar-nav ul li,
+.sidebar-nav ul a {
+    display: block;
+}
+
+.sidebar-nav ul a {
+    padding: 10px 20px;
+    color: #aaa;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-nav ul a:hover,
+.sidebar-nav ul a:focus,
+.sidebar-nav ul a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-nav ul ul a {
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav ul ul a:hover,
+.sidebar-nav ul ul a:focus,
+.sidebar-nav ul ul a:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav-item {
+    padding-left: 5px;
+}
+
+.sidebar-nav-item-icon {
+    padding-right: 5px;
+}
+
+#rtlh3 small {
+    transform: rotateY(180deg);
+    display: inline-block;
+}
+
+
+/*----------- Main Navigation end -----------*/

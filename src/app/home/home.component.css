@@ -1,0 +1,120 @@
+.smart_container {
+    width: 100%;
+}
+
+.banner_sec {
+    width: 100%;
+    position: relative;
+    display: table;
+    min-height: 400px;
+    /* background: url(../images/banner1.png) no-repeat center center; */
+    background-size: cover;
+    height: 400px;
+}
+
+.banner_inn {
+    display: table-cell;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background: rgba(23, 23, 71, 0.3);
+}
+
+.bannerhead {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.search_secinn {
+    text-align: center;
+    height: 35px;
+}
+
+ul#searchTab {
+    min-width: auto;
+    display: inline-block;
+}
+
+ul#searchTab li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    float: left;
+}
+
+.search_secinn .nav-link {
+    border-radius: 0 !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #F15A27;
+    color: #fff;
+}
+
+.search_secinn .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #DCDCDC;
+    color: #444444;
+}
+
+.tab_conarea {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: 1px solid rgba(256, 256, 256, 0.2);
+    ;
+}
+
+.search_sec h5 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+}
+
+.search_sec h5 a {
+    float: right;
+    color: #ddd;
+    font-weight: 700;
+}
+
+.row.search_field {
+    width: 100%;
+    margin: 0;
+}
+
+.tab_conarea input {
+    width: 100%;
+    border: none;
+    padding: 8px 10px;
+    height: 44px;
+    margin-bottom: 2px;
+}
+
+.tab_conarea select {
+    width: 100%;
+    border: none;
+    padding: 8px 10px;
+    background: #fff;
+    height: 44px;
+    margin-bottom: 2px;
+}
+
+.padding_none {
+    padding: 0 1px;
+}
+
+.tab_conarea button {
+    width: 100%;
+    border: none;
+    padding: 8px 10px;
+    background: #F15A27;
+    color: #fff;
+    height: 44px;
+    margin-bottom: 2px;
+}
